@@ -164,11 +164,11 @@ for a in li2[:2]:
     print(a)
 # 클래스 기본
 class MyClass:
-		# 생성자(constructor) : self -> Dart의 this를 의미하며
-		# 생성자 및 메서드 등에서 첫 인자로 담아야 사용 가능
-		# __NAME__ : 미리 생성 되어있는 특이한 이름의 규칙들
+    # 생성자(constructor) : self -> Dart의 this를 의미하며
+    # 생성자 및 메서드 등에서 첫 인자로 담아야 사용 가능
+    # __NAME__ : 미리 생성 되어있는 특이한 이름의 규칙들
     def __init__(self, arg):
-				# 생성시 초기화 할 수 있으며, self에 바인딩되어 변수를 별도 선언하지 않아도 됨
+	# 생성시 초기화 할 수 있으며, self에 바인딩되어 변수를 별도 선언하지 않아도 됨
         self._arg = arg
     def myArg(self):
         return self._arg
