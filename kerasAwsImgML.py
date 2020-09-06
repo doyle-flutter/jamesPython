@@ -39,3 +39,8 @@ xhat = x_test[0:1]
 yhat = model.predict(xhat)
 print('## yhat ##')
 print(yhat)
+## yhat ## - > softmax 로 모든 값의 합은 1
+#[[1.7138754e-04 1.0105189e-07 3.7975537e-04 2.3973610e-03 1.1148370e-06 1.3516494e-04 1.2585768e-07 9.9586004e-01 7.3160991e-05 9.8189956e-04]]
+yhat2 = model.predict_classes(xhat)
+print(yhat2)
+# [7]
